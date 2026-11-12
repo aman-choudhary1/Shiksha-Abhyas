@@ -196,3 +196,4 @@ After running `npm run seed` in `shiksha-pariksha-backend`, you can log in with:
 - `npm run build` — Build production bundle to `dist/`
 - `npm run lint` — Lint source files with `oxlint`
 - `npm run preview` — Preview production build locally
+
