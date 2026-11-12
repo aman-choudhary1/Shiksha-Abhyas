@@ -1,0 +1,36 @@
+{
+  "name": "shiksha-pariksha-api",
+  "version": "1.0.0",
+  "description": "Shiksha Pariksha — Multi-Role Practice Test Platform API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "migrate": "node migrations/run_migrations.js",
+    "seed": "node scripts/seed_demo_users.js",
+    "template": "node scripts/generate_template.js"
+  },
+  "keywords": [
+    "education",
+    "quiz",
+    "mcq",
+    "practice-test"
+  ],
+  "author": "VSK Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.12.0",
+    "zod": "^3.23.8"
+  }
+}
